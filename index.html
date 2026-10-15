@@ -1,0 +1,639 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Professional website design services. Discover creative, responsive websites for businesses, brands and entrepreneurs.">
+
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Website developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container navbar">
+
+            <a href="#home" class="brand">
+                <span class="brand-icon">G</span>
+                <span>WELCOME <strong>TO MY PAGE</strong></span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="navigation" id="navigation">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">My Work</a>
+                <a href="#about">About Me</a>
+                <a href="#contact" class="nav-contact">Let's Talk ↗</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- HERO / HOMEPAGE -->
+        <section class="hero container" id="home">
+
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    <span class="gold-dot"></span>
+                    CREATIVE WEB DESIGNER
+                </span>
+
+                <h1>
+                    I turn creative ideas into
+                    <span>stunning websites.</span>
+                </h1>
+
+                <p class="hero-description">
+                    I design beautiful, modern and responsive websites
+                    that help businesses build their online presence,
+                    showcase their brands and connect with more customers.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-gold">
+                        Explore My Work <span>→</span>
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Hire Me
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <strong>Creative</strong>
+                        <span>Design solutions</span>
+                    </div>
+
+                    <div>
+                        <strong>Responsive</strong>
+                        <span>Mobile-friendly sites</span>
+                    </div>
+
+                    <div>
+                        <strong>Unique</strong>
+                        <span>Design approach</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="hero-frame">
+                        <img src="image/place.jpg"
+     alt="place.jpg website design"
+     loading="lazy">
+                </div>
+
+                <div class="floating-card floating-top">
+                    <span class="floating-icon">✦</span>
+                    <div>
+                        <strong>Creative Design</strong>
+                        <small>Ideas brought to life</small>
+                    </div>
+                </div>
+
+                <div class="floating-card floating-bottom">
+                    <span class="status-dot"></span>
+                    Available for projects
+                </div>
+
+                <div class="gold-shape"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SERVICES -->
+        <section class="services section" id="services">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">WHAT I CAN DO FOR YOU</span>
+                        <h2>My creative <span>services.</span></h2>
+                    </div>
+
+                    <p>
+                        Digital solutions designed to make your brand
+                        stand out and help your business grow online.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+
+                    <!-- SERVICE 1 -->
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img
+                                src="image/bus.jpg"
+                                alt="Business website displayed on a laptop"
+                                loading="lazy"
+                            >
+                            <span class="service-number">01</span>
+                        </div>
+
+                        <div class="service-body">
+                            <h3>Business Websites</h3>
+                            <p>
+                                Professional websites that introduce
+                                your business, build trust and help
+                                customers find your services.
+                            </p>
+                            <a href="#contact" class="service-link"
+                               data-service="Business Website">
+                                Request This Service ↗
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <!-- SERVICE 2 -->
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img
+                                src="image/land.jpg"
+                                alt="Creative branding and graphic design materials"
+                                loading="lazy"
+                            >
+                            <span class="service-number">02</span>
+                        </div>
+
+                        <div class="service-body">
+                            <h3>Landing Pages</h3>
+                            <p>
+                                Attractive landing pages designed to
+                                promote products, advertise offers and
+                                encourage customers to take action.
+                            </p>
+                            <a href="#contact" class="service-link"
+                               data-service="Landing Page Design">
+                                Request This Service ↗
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <!-- SERVICE 3 -->
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img
+                                src="image/forlio.jpg"
+                                alt="Creative team collaborating on digital projects"
+                                loading="lazy"
+                            >
+                            <span class="service-number">03</span>
+                        </div>
+
+                        <div class="service-body">
+                            <h3>Portfolio Websites</h3>
+                            <p>
+                                Personal websites that showcase your
+                                skills, projects, creativity and
+                                professional achievements.
+                            </p>
+                            <a href="#contact" class="service-link"
+                               data-service="Portfolio Website">
+                                Request This Service ↗
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <!-- SERVICE 4 -->
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img
+                                src="image/store.jpg"
+                                alt="Online shopping and ecommerce payment"
+                                loading="lazy"
+                            >
+                            <span class="service-number">04</span>
+                        </div>
+
+                        <div class="service-body">
+                            <h3>E-commerce Websites</h3>
+                            <p>
+                                Online storefront designs to help
+                                businesses present products and
+                                prepare for online sales.
+                            </p>
+                            <a href="#contact" class="service-link"
+                               data-service="E-commerce Website">
+                                Request This Service ↗
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PORTFOLIO -->
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">A SELECTION OF MY WORK</span>
+                        <h2>Designed to make an <span>impact.</span></h2>
+                    </div>
+
+                    <p>
+                        Explore sample concepts and projects that
+                        demonstrate my creative direction.
+                    </p>
+                </div>
+
+                <!-- PROJECT FILTERS -->
+                <div class="portfolio-filters">
+                    <button class="filter-btn active"
+                            data-filter="all"
+                            aria-pressed="true">
+                        All Projects
+                    </button>
+
+                    <button class="filter-btn"
+                            data-filter="business"
+                            aria-pressed="false">
+                        Business
+                    </button>
+
+                    <button class="filter-btn"
+                            data-filter="portfolio"
+                            aria-pressed="false">
+                        Portfolio
+                    </button>
+
+                    <button class="filter-btn"
+                            data-filter="ecommerce"
+                            aria-pressed="false">
+                        E-commerce
+                    </button>
+                </div>
+
+
+                <div class="portfolio-grid" id="portfolioGrid">
+
+                    <!-- PROJECT 1 -->
+                    <article class="project-card"
+                             data-category="business">
+
+                        <a href="#contact"
+                           class="project-image"
+                           data-project="Business Website Concept">
+
+                            <img
+                                src="image/11.jpg"
+                                alt="Modern office interior used for a business website concept"
+                                loading="lazy"
+                            >
+
+                            <span class="project-view">Discuss a similar project ↗</span>
+                        </a>
+
+                        <div class="project-info">
+                            <div>
+                                <h3>Business Website</h3>
+                                <p>Professional business design</p>
+                            </div>
+                            <span class="project-arrow">↗</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 2 -->
+                    <article class="project-card"
+                             data-category="portfolio">
+
+                        <a href="#contact"
+                           class="project-image"
+                           data-project="Personal Portfolio Concept">
+
+                            <img
+                                src="image/22.jpg"
+                                alt="Laptop and workspace for a portfolio website concept"
+                                loading="lazy"
+                            >
+
+                            <span class="project-view">Discuss a similar project ↗</span>
+                        </a>
+
+                        <div class="project-info">
+                            <div>
+                                <h3>Personal Portfolio</h3>
+                                <p>Personal brand and creativity</p>
+                            </div>
+                            <span class="project-arrow">↗</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 3 -->
+                    <article class="project-card"
+                             data-category="ecommerce">
+
+                        <a href="#contact"
+                           class="project-image"
+                           data-project="E-commerce Concept">
+
+                            <img
+                                src="image/store1.jpg"
+                                alt="Retail store interior for an online shopping concept"
+                                loading="lazy"
+                            >
+
+                            <span class="project-view">Discuss a similar project ↗</span>
+                        </a>
+
+                        <div class="project-info">
+                            <div>
+                                <h3>Online Store</h3>
+                                <p>Retail and e-commerce design</p>
+                            </div>
+                            <span class="project-arrow">↗</span>
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <p class="portfolio-note">
+    
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- ABOUT ME -->
+        <section class="about section" id="about">
+            <div class="container about-grid">
+
+                <div class="about-image">
+                    <img
+                        src="image/bus.jpg"
+                        alt="Creative professionals collaborating on a project"
+                        loading="lazy"
+                    >
+                    <div class="about-badge">
+                        <span>CREATIVITY</span>
+                        <strong>MEETS</strong>
+                        <span>TECHNOLOGY</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <span class="eyebrow">GET TO KNOW ME</span>
+
+                    <h2>Designing digital experiences with <span>purpose.</span></h2>
+
+                    <p>
+                        Hello! I'm DRAMAN ABDUL AZIZ, a creative web designer
+                        passionate about turning ideas into attractive
+                        digital experiences.
+                    </p>
+
+                    <p>
+                        My goal is to help individuals, entrepreneurs
+                        and businesses establish a strong online
+                        presence through thoughtful design and
+                        responsive websites.
+                    </p>
+
+                    <div class="skills">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <a href="#contact" class="btn btn-gold">
+                        Work With Me →
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- HOW IT WORKS -->
+        <section class="process section">
+            <div class="container">
+
+                <div class="section-heading centered-heading">
+                    <div>
+                        <span class="eyebrow">SIMPLE AND TRANSPARENT</span>
+                        <h2>How we bring your <span>ideas to life.</span></h2>
+                    </div>
+                </div>
+
+                <div class="process-grid">
+
+                    <div class="process-card">
+                        <span class="process-number">01</span>
+                        <h3>Let's Talk</h3>
+                        <p>Tell me about your business, your goals and the website you need.</p>
+                    </div>
+
+                    <div class="process-card">
+                        <span class="process-number">02</span>
+                        <h3>Design & Build</h3>
+                        <p>I'll develop a design direction and build your agreed website.</p>
+                    </div>
+
+                    <div class="process-card">
+                        <span class="process-number">03</span>
+                        <h3>Launch</h3>
+                        <p>Review the finished work and prepare your website for launch.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+            <div class="container contact-grid">
+
+                <div class="contact-content">
+                    <span class="eyebrow">HAVE A PROJECT IN MIND?</span>
+
+                    <h2>Let's create something <span>remarkable.</span></h2>
+
+                    <p>
+                        Have an idea for a website? Let's discuss
+                        your project and find the right design for you.
+                    </p>
+
+                    <div class="contact-detail">
+                        <span class="contact-icon">✉</span>
+                        <div>
+                            <small>EMAIL ME</small>
+                            <a href="mail to:dramanaziz460@gmail.com">
+                                
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <span class="contact-icon">↗</span>
+                        <div>
+                            <small>LET'S CONNECT</small>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <form class="contact-form" id="contactForm">
+
+                    <h3>Tell me about your project</h3>
+
+                    <label for="clientName">Your name</label>
+                    <input
+                        type="text"
+                        id="clientName"
+                        name="clientName"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                    <label for="clientEmail">Email address</label>
+                    <input
+                        type="email"
+                        id="clientEmail"
+                        name="clientEmail"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                    <label for="projectType">What do you need?</label>
+                    <select id="projectType" name="projectType" required>
+                        <option value="">Choose a service</option>
+                        <option value="Business Website">Business Website</option>
+                        <option value="Landing Page">Landing Page</option>
+                        <option value="Portfolio Website">Portfolio Website</option>
+                        <option value="E-commerce Website">E-commerce Website</option>
+                        <option value="Website Redesign">Website Redesign</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <label for="projectMessage">Project details</label>
+                    <textarea
+                        id="projectMessage"
+                        name="projectMessage"
+                        rows="4"
+                        placeholder="Tell me a little about your project..."
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="btn btn-gold form-submit">
+                        Send via WhatsApp ↗
+                    </button>
+
+                    <p class="form-message"
+                       id="contactMessage"
+                       role="status"
+                       aria-live="polite"></p>
+
+                </form>
+
+            </div>
+        </section>
+
+
+        <!-- FINAL CALL TO ACTION -->
+        <section class="final-cta">
+            <div class="container final-cta-content">
+                <div>
+                    <span class="eyebrow">YOUR IDEA. MY CREATIVITY.</span>
+                    <h2>Your next website starts here.</h2>
+                </div>
+
+                <a href="#contact" class="btn btn-dark">
+                    Start Your Project →
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#home" class="brand footer-brand">
+                <span class="brand-icon">G</span>
+                <span>YOUR <strong>WEBSITE</strong></span>
+            </a>
+
+            <p>Creative websites. Meaningful experiences.</p>
+
+            <div class="footer-links">
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <p class="copyright">
+                © <span id="currentYear"></span> DRAMAN AZIZ.
+                All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a
+        class="whatsapp-float"
+        id="whatsappFloat"
+        href="https://wa.me/+233543761984"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contact me on WhatsApp"
+    >
+        <span class="whatsapp-symbol">W</span>
+        <span>Let's Chat</span>
+    </a>
+
+</body>
+</html>
